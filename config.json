@@ -1,0 +1,8 @@
+{
+    "observation": {
+        "type": "Kinematics"
+    },
+    "action": {
+        "type": "DiscreteMetaAction"
+    }
+}
