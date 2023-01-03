@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
     
     #Agent
-    agent_name = "PreTrained_Agent_{}".format(seed)
+    agent_name = "Agent_{}".format(seed)
     if not os.path.isdir("{}/{}/{}".format(data_dir,env_name,agent_name)):
         os.mkdir("{}/{}/{}".format(data_dir,env_name,agent_name))
         
